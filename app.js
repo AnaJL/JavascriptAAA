@@ -141,9 +141,9 @@ tipo.addEventListener('click', function() {
 }
 tipo.innerHTML = restype
 })
-resultl = ''
 
 tipo.addEventListener('change', function() {
+    resultl = ''
   for( pokemon of poke){
     for(i in pokemon.type){
       if (pokemon.type[i] == tipo.value){
